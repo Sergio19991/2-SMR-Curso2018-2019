@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="Sergio Bejarano Arroyo" content="Bloque JAVASCRIPT"/>
+	<title>EJERCICIOS4 - Actividad2</title>
+</head>
+<body>
+	<script>
+		var numero;
+		do{
+			numero = parseInt(prompt("Introduce un número entre el 0 y el 999:"))
+			document.write("<br>El número " + numero + " tiene");
+		if(numero < 10) {
+			document.write(" 1 dígito.");
+		}
+		else {
+			if(numero < 100)
+				document.write(" 2 dígitos.");
+					else
+						document.write(" 3 dígitos.");
+		}
+		}while(numero != 0);
+	</script>
+</body>
+</html>

@@ -1,0 +1,26 @@
+	body{
+		background-color: blue;
+		color: yellow;
+	}
+
+	h1{
+		text-align: center;
+	}
+
+	p1{
+		font-family: arial;
+		color: red;
+		font-size: 30px;
+	}
+
+	p2{
+		font-family: times;
+		color: yellow;
+		font-size: 25px;
+	}
+
+	p3{
+		font-family: verdana;
+		color: green;
+		font-size: 18px;
+	}
